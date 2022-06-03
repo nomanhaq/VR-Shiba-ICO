@@ -83,7 +83,7 @@ function Presale() {
     return (
         <div className="my-11 p-7 flex items-center flex-col md:flex-row justify-between border border-white border-opacity-20 rounded-3xl shadow-xl ">
             <div className="md:pl-8 text-center md:text-left md:mr-2">
-                <h1 className="text-base sm:text-xl font-bold uppercase text-[#fb9c28]" >Initial Coin Offering</h1>
+                <h1 className="text-base sm:text-xl font-bold uppercase text-[#fb9c28]" >Private Sale</h1>
                 <h1 className="text-2xl sm:text-4xl font-bold uppercase text-black" >VR Shiba</h1>
                 <button className='mt-5 px-6 py-2 bg-[#fb9c28] text-black rounded font-bold hover:bg-yellow-300' onClick={() => addToken()}>Add Token to your MetaMask</button>
                 {/* <div className='mt-3 hidden md:block'>
@@ -92,7 +92,7 @@ function Presale() {
                 <div className='mt-10 text-left'>
                     <h3 className=' uppercase text-sm font-semibold mb-2 text-[#fb9c28]'>Instructions:</h3>
                     <ul className='text-sm list-outside list-disc'>
-                        <li className='ml-4'>Minimum purchase allowed: 0.01 BNB</li>
+                        <li className='ml-4'>Minimum purchase allowed: 0.2 BNB</li>
                         <li className='ml-4'>Purchase amount should be multiple of minimum purchase</li>
                     </ul>
                 </div>
@@ -112,7 +112,7 @@ function Presale() {
                     </div>
                     <div className="my-3">
                         <label className="text-base font-bold text-[#fb9c28]">Rate</label>
-                        <input className="w-full h-12 rounded-lg p-2 text-xl focus:outline-none mt-1" type="text" value="$0.01" disabled />
+                        <input className="w-full h-12 rounded-lg p-2 text-xl focus:outline-none mt-1" type="text" value="$0.2" disabled />
                     </div>
 
                     <div className="mt-10">
